@@ -34,7 +34,7 @@ b {
 }
 
 table {
-  border-spacing: 70px;
+  border-spacing: 60px;
 }
 
 #slope-output-para {
@@ -52,7 +52,6 @@ table {
 input {
   height: 20px;
   font-size: large;
-  width: 130px;
 }
 input:hover {
   border-radius: 5px;
@@ -64,11 +63,15 @@ label {
   font-size: large;
 }
 
-.y-in {
-  width: 30px;
-}
+.y-in,
 .x-in {
-  width: 30px;
+  width: 35px;
+  transition: width 1s;
+}
+.y-in:hover,
+.x-in:hover {
+  width: 50px;
+  transition: width 1s;
 }
 
 /* Button */
