@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Slope</title>
+    <link rel="stylesheet" href="slope/slope.css" />
+    <script defer src="slope/slope.js"></script>
+  </head>
+  <body>
+    <canvas id="line-canvas"></canvas>
+    <div id="slope-intro-cont">
+      <h1>Slope of a linear relation</h1>
+      <p>
+        Similar to the steepness of a hill, a slope is the <br />
+        <u>vertical and horizontal change between two points</u> on a graphed
+        line.
+        <br />
+        <br />
+        These points are also known as the <b>Rise</b> and <b>Run</b>.
+      </p>
+      <hr />
+
+      <table>
+        <tr>
+          <td id="labels-inputs">
+            <p><u>RISE</u></p>
+            <input type="number" id="y-2" class="y-in" placeholder="y₂" />
+            <input type="number" id="y-1" class="y-in" placeholder="y₁" /><br />
+            <br />
+
+            <p><u>RUN</u></p>
+            <input type="number" id="x-2" class="x-in" placeholder="x₂" />
+            <input type="number" id="x-1" class="x-in" placeholder="x₁" /><br />
+          </td>
+          <td id="img">
+            <p>
+              <img
+                src="slope/slope-formula-all_no_highlight.png"
+                alt="Slope Formula and Diagram"
+              />
+            </p>
+          </td>
+        </tr>
+      </table>
+      <button id="slope-calc-btn">Calculate</button>
+      <p id="slope-output-para">Slope ≈ <span id="slope-output">----</span></p>
+
+      <nav style="text-align: right">
+        <a href="index.html">Return</a>
+      </nav>
+    </div>
+  </body>
+</html>

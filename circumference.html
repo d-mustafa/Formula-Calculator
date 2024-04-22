@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Circumference</title>
+    <link rel="stylesheet" href="circumference/circumference.css" />
+    <script defer src="circumference/circumference.js"></script>
+  </head>
+  <body>
+    <canvas id="circle-canvas"></canvas>
+    <div id="cir-intro-cont">
+      <h1>Circumference Of A Circle</h1>
+      <p>The length of a circle's <b>perimeter</b></p>
+      <hr />
+      <img
+        src="circumference/circumference.png"
+        alt="circumference formula"
+        width="400px"
+      />
+      <label for="radius" class="move-top">Radius: </label>
+      <input type="number" id="radius" class="move-top" /> <br />
+      <button id="cir-calc-btn">Calculate</button>
+      <p id="para-output">
+        <br />
+        Circumference ≈
+        <span id="cir_output">----</span>
+      </p>
+
+      <nav style="text-align: right">
+        <a href="index.html">Return</a>
+      </nav>
+    </div>
+  </body>
+</html>

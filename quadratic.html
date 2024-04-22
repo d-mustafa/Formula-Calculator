@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Slope</title>
+    <link rel="stylesheet" href="quadratic/quadratic.css" />
+    <script defer src="quadratic/quadratic.js"></script>
+  </head>
+  <body>
+    <canvas id="x-canvas1"></canvas>
+    <canvas id="x-canvas2"></canvas>
+    <div id="slope-intro-cont">
+      <h1>Quadratic Formula Calculator</h1>
+      <p>
+        A equation used to solve for the possible <br />
+        <b>x-intercept(s)</b> of a quadration function
+      </p>
+
+      <hr />
+      <p class="center-align">
+        <img
+          src="quadratic/quadraticformula.jpg"
+          alt="Image Failed To Load"
+          width="60%"
+        />
+      </p>
+      <div id="content-container">
+        <!-- INPUTS -->
+        <label for="a-in" style="color: #41b5fd">a: </label>
+        <input type="number" id="a-in" />
+        <label for="b-in" style="color: red">b: </label>
+        <input type="number" id="b-in" />
+        <label for="c-in" style="color: orange">c: </label>
+        <input type="number" id="c-in" /> <br />
+
+        <!-- OUTPUTS -->
+        <button id="qua-calc-btn">Calculate</button> <br />
+
+        <p id="out-para">x ≈ <span id="output">----</span></p>
+
+        <p id="x-ints-para">x-intercept(s): <span id="x-ints">----</span></p>
+      </div>
+      <nav>
+        <a href="index.html">Return</a>
+      </nav>
+    </div>
+  </body>
+</html>

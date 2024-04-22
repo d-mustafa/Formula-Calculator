@@ -1,0 +1,116 @@
+html {
+  background-color: #fb7cff;
+}
+
+#slope-intro-cont {
+  background-color: white;
+  width: 50%;
+  margin: 200px auto;
+  padding: 10px 40px;
+  border-radius: 30px;
+  border: 2px purple solid;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#line-canvas {
+  width: 5px;
+  height: 50px;
+  transform: skew(-60deg);
+  background: white;
+  margin-left: 40px;
+}
+/* TEXT */
+h1 {
+  font-family: "Courier New", Courier, monospace;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+b {
+  color: purple;
+}
+
+table {
+  border-spacing: 70px;
+}
+
+#slope-output-para {
+  position: relative;
+  top: -150px;
+  left: 60px;
+}
+
+#slope-output {
+  color: purple;
+  font-weight: bold;
+}
+
+/* INPUTS */
+input {
+  height: 20px;
+  font-size: large;
+  width: 130px;
+}
+input:hover {
+  border-radius: 5px;
+  border-color: purple;
+}
+
+label {
+  color: purple;
+  font-size: large;
+}
+
+.y-in {
+  width: 30px;
+}
+.x-in {
+  width: 30px;
+}
+
+/* Button */
+button {
+  margin-top: 10px;
+  width: 15%;
+  border: 1px solid purple;
+  border-radius: 10px;
+  font-size: large;
+  background-color: #fb7cff;
+  color: purple;
+  transition: border-radius 0.5s;
+}
+button:hover {
+  cursor: pointer;
+  border-radius: 0px;
+  transition: border-radius 1s;
+}
+button:active {
+  opacity: 0.7;
+}
+
+#slope-calc-btn {
+  position: relative;
+  top: -160px;
+  left: 55px;
+}
+
+/* RETURN */
+nav {
+  margin-top: -50px;
+}
+
+a {
+  color: purple;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+a:hover {
+  opacity: 0.5;
+  cursor: pointer;
+  text-shadow: 1px 1px;
+  text-decoration: none;
+}

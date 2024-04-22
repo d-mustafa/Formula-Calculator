@@ -1,0 +1,112 @@
+/* BASE */
+html {
+  background-color: #ff6767;
+}
+
+#cir-intro-cont {
+  background-color: white;
+  width: 50%;
+  margin: 200px auto;
+  padding: 10px 40px;
+  border-radius: 30px;
+  border: 2px red solid;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#circle-canvas {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border-radius: 50%;
+}
+/* TEXT */
+
+b {
+  color: red;
+}
+
+h1 {
+  font-family: "Courier New", Courier, monospace;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#para-output {
+  text-align: center;
+  display: inline;
+  position: relative;
+  top: -125px;
+  left: 405px;
+}
+
+#cir_output {
+  color: red;
+  font-weight: bold;
+}
+
+.move-top {
+  position: relative;
+  top: -150px;
+}
+
+/* INPUTS AND LABELS */
+input {
+  height: 20px;
+  width: 55px;
+  font-size: large;
+  transition: width 0.7s;
+}
+input:hover {
+  width: 150px;
+  border-radius: 5px;
+  border-color: red;
+  transition: width 1s;
+}
+
+label {
+  color: red;
+  font-size: large;
+}
+
+/* Button */
+#cir-calc-btn {
+  margin-top: 10px;
+  width: 15%;
+  border: 1px solid red;
+  border-radius: 10px;
+  font-size: large;
+  background-color: #ff9696;
+  color: red;
+  position: relative;
+  top: -140px;
+  left: 405px;
+  transition: border-radius 0.5s;
+}
+
+#cir-calc-btn:hover {
+  cursor: pointer;
+  border-radius: 0px;
+  transition: border-radius 1s;
+}
+
+#cir-calc-btn:active {
+  opacity: 0.7;
+}
+
+/* RETURN */
+
+a {
+  color: red;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+a:hover {
+  opacity: 0.5;
+  cursor: pointer;
+  text-shadow: 1px 1px;
+  text-decoration: none;
+}

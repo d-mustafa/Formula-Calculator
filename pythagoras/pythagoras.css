@@ -1,0 +1,104 @@
+html {
+  background-color: lightgreen;
+}
+
+#py-intro-cont {
+  background-color: white;
+  width: 50%;
+  margin: 200px auto;
+  padding: 10px 40px;
+  border-radius: 30px;
+  border: 2px green solid;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#triangle-canvas {
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 50px solid white;
+}
+/* TEXT */
+
+b,
+label {
+  color: green;
+}
+
+h1 {
+  font-family: "Courier New", Courier, monospace;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.center-align {
+  text-align: center;
+}
+
+.right-align {
+  text-align: right;
+}
+
+/* INPUTS & LABELS */
+
+label {
+  margin-left: 10px;
+  font-size: large;
+}
+
+input {
+  height: 20px;
+  width: 70px;
+  font-size: large;
+  transition: width 0.7s;
+}
+input:hover {
+  border-radius: 5px;
+  border-color: green;
+  width: 140px;
+  transition: width 1s;
+}
+
+#a-sqr-in {
+  margin-right: 30px;
+}
+
+/* Button */
+button {
+  margin-top: 10px;
+  width: 15%;
+  border: 1px solid green;
+  border-radius: 10px;
+  font-size: large;
+  background-color: lightgreen;
+  color: green;
+  transition: border-radius 0.5s;
+}
+
+button:hover {
+  cursor: pointer;
+  border-radius: 0px;
+  transition: border-radius 1s;
+}
+
+button:active {
+  opacity: 0.7;
+}
+
+/* RETURN */
+a {
+  color: lime;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+a:hover {
+  opacity: 0.5;
+  cursor: pointer;
+  text-shadow: 1px 1px;
+  text-decoration: none;
+}
